@@ -1465,24 +1465,31 @@
     ]
   },
   "packageFolders": {
-    "/home/taras_3004/.nuget/packages/": {}
+    "C:\\Users\\taras\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/Game/Game.csproj",
+      "projectUniqueName": "C:\\Users\\taras\\source\\repos\\101-card-game\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/Game/Game.csproj",
-      "packagesPath": "/home/taras_3004/.nuget/packages/",
-      "outputPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/Game/obj/",
+      "projectPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\Game\\Game.csproj",
+      "packagesPath": "C:\\Users\\taras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\Game\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/taras_3004/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\taras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1501,7 +1508,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -1548,7 +1555,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

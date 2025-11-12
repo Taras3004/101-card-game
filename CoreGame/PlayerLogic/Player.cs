@@ -1,3 +1,8 @@
+using CoreGame.CardsLogic;
+using CoreGame.PlayerLogic.PlayerControls;
+
+namespace CoreGame.PlayerLogic;
+
 public class Player
 {
     public List<Card> CurrentCards { get; private set; }

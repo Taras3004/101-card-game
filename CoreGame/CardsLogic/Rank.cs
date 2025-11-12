@@ -1,3 +1,5 @@
+namespace CoreGame.CardsLogic;
+
 public enum Rank
 {
     Six,

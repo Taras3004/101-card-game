@@ -24,7 +24,6 @@
             <Button Content="Добавить" 
                     Command="{Binding AddTaskCommand}" />
         </StackPanel>
-        
     </Grid>
 
 </Window>
