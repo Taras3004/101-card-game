@@ -4,9 +4,9 @@ namespace CoreGame.CardsLogic.CardAbilities
 {
     internal class ReverseEffect : ICardAbility
     {
-        public void ApplyEffect(GameEngine gameEngine, Player nextPlayer)
+        public void ApplyEffect(GameEngine gameEngine, Player player)
         {
-            throw new NotImplementedException();
+            gameEngine.Reverse();
         }
     }
 }

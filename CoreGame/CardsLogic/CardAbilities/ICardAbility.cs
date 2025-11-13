@@ -4,5 +4,5 @@ namespace CoreGame.CardsLogic.CardAbilities;
 
 public interface ICardAbility
 {
-    public void ApplyEffect(GameEngine gameEngine, Player nextPlayer);
+    public void ApplyEffect(GameEngine gameEngine, Player player);
 }

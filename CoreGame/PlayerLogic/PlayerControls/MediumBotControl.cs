@@ -4,7 +4,7 @@ namespace CoreGame.PlayerLogic.PlayerControls;
 
 public class MediumBotControl : IControl
 {
-    public Card MakeMove()
+    public Card MakeMove(GameContext context)
     {
         throw new NotImplementedException();
     }

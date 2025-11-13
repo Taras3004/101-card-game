@@ -4,7 +4,7 @@ namespace CoreGame.PlayerLogic.PlayerControls;
 
 public class EasyBotControl : IControl
 {
-    public Card MakeMove()
+    public Card MakeMove(GameContext context)
     {
         throw new NotImplementedException();
     }

@@ -10,11 +10,9 @@ public class Card(Suit suit, Rank rank, ICardAbility? ability = null)
 
     private readonly ICardAbility? Ability = ability;
 
-    public void Use(GameEngine gameEngine, Player nextPlayer)
+    public void Use(GameEngine gameEngine, Player player)
     {
-        Ability?.ApplyEffect(gameEngine, nextPlayer);
-
-        gameEngine.PassTurnToTheNextPlayer();
+        Ability?.ApplyEffect(gameEngine, player);
     }
 
     public virtual int GetValue()

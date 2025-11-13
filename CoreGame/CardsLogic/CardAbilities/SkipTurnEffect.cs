@@ -2,11 +2,11 @@
 
 namespace CoreGame.CardsLogic.CardAbilities
 {
-    internal class AddCardsEffect(int count) : ICardAbility
+    internal class SkipTurnEffect : ICardAbility
     {
         public void ApplyEffect(GameEngine gameEngine, Player player)
         {
-            gameEngine.GiveCardsToNextPlayer(count);
+            gameEngine.PassTurnToTheNextPlayer();
         }
     }
 }

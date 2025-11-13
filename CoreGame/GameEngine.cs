@@ -5,12 +5,16 @@ namespace CoreGame;
 
 public class GameEngine
 {
-    private List<Player> players;
-    public Player currentPlayer { get; private set; }
-    private int currentPlayerIndex = 0;
+    private const int CardsPerPlayer = 4;
 
-    private List<Card> unusedCards;
+    private readonly List<Player> players;
+    public Player CurrentPlayer { get; private set; }
+    private int currentPlayerIndex;
+
     private bool isReversed;
+    private readonly Deck deck;
+
+    public Player? PlayerToChooseSuit { get; private set; }
 
     public GameEngine(List<Player> players)
     {
@@ -19,25 +23,93 @@ public class GameEngine
 
         this.players = players;
 
-        currentPlayer = players[currentPlayerIndex];
-
-        unusedCards = CreateDeck();
+        CurrentPlayer = players[currentPlayerIndex];
+        deck = new Deck();
     }
 
-    private static List<Card> CreateDeck()
+    public void StartGame()
     {
-        List<Card> newDeck = new List<Card>();
-
-        foreach (Suit suit in Enum.GetValues(typeof(Suit)))
+        foreach (Player player in players)
         {
-            foreach (Rank rank in Enum.GetValues(typeof(Rank)))
-            {
-                var card = new Card(suit, rank);
-                newDeck.Add(card);
-            }
+            var playerHand = deck.Draw(CardsPerPlayer);
+
+            player.CurrentCards.AddRange(playerHand);
+        }
+    }
+
+    public void PlayTurn(Card playedCard)
+    {
+        if (!deck.IsMoveLegal(playedCard))
+        {
+            throw new Exception("Nope");
         }
 
-        return newDeck;
+        CurrentPlayer.CurrentCards.Remove(playedCard);
+
+        deck.PlayCard(playedCard);
+
+        playedCard.Use(this, CurrentPlayer);
+
+        PassTurnToTheNextPlayer();
+    }
+
+    public void PlayBotTurn()
+    {
+        if (!CurrentPlayer.IsBot)
+        {
+            return;
+        }
+
+        var context = new GameContext(CurrentPlayer.CurrentCards, deck.TopCard);
+
+        var botMove = CurrentPlayer.MakeMove(context);
+
+        if (botMove != null)
+        {
+            PlayTurn(botMove);
+        }
+        else
+        {
+            if (deck.ActiveSixToCover != null)
+            {
+                Card? cardToPlay;
+
+                do
+                {
+                    cardToPlay = deck.Draw();
+                    CurrentPlayer.CurrentCards.Add(cardToPlay);
+                } while (!deck.IsMoveLegal(cardToPlay));
+
+                PlayTurn(cardToPlay);
+            }
+            else
+            {
+                var additionalCard = deck.Draw();
+                CurrentPlayer.CurrentCards.Add(additionalCard);
+
+                var secondTry = CurrentPlayer.MakeMove(context);
+
+                if (secondTry != null)
+                {
+                    PlayTurn(secondTry);
+                }
+                else
+                {
+                    PassTurnToTheNextPlayer();
+                }
+            }
+        }
+    }
+
+    public void SetCurrentSuitOverride(Suit suit)
+    {
+        deck.SetSuitOverride(suit);
+        PlayerToChooseSuit = null;
+    }
+
+    public void RequestSuitFrom(Player player)
+    {
+        PlayerToChooseSuit = player;
     }
 
     public void Reverse()
@@ -45,9 +117,32 @@ public class GameEngine
         isReversed = !isReversed;
     }
 
-    public void AddCardsToPlayer()
+    public void GiveCardsToNextPlayer(int count)
     {
-        throw new NotImplementedException();
+        int nextPlayerIndex = GetNextPlayerIndex();
+
+        Player nextPlayer = players[nextPlayerIndex];
+
+        AddCardsToPlayer(nextPlayer, count);
+
+        PassTurnToTheNextPlayer();
+    }
+
+    private int GetNextPlayerIndex()
+    {
+        if (!isReversed)
+        {
+            return (currentPlayerIndex + 1 == players.Count) ? 0 : currentPlayerIndex + 1;
+        }
+
+        return (currentPlayerIndex == 0) ? players.Count - 1 : currentPlayerIndex - 1;
+    }
+
+
+    public void AddCardsToPlayer(Player player, int countOfCards)
+    {
+        var cards = deck.Draw(countOfCards);
+        player.CurrentCards.AddRange(cards);
     }
 
     public void PassTurnToTheNextPlayer()
@@ -75,6 +170,6 @@ public class GameEngine
             }
         }
 
-        currentPlayer = players[currentPlayerIndex];
+        CurrentPlayer = players[currentPlayerIndex];
     }
 }

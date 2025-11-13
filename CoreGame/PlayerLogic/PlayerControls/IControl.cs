@@ -4,5 +4,5 @@ namespace CoreGame.PlayerLogic.PlayerControls;
 
 public interface IControl
 {
-    public Card MakeMove();
+    public Card? MakeMove(GameContext context);
 }
