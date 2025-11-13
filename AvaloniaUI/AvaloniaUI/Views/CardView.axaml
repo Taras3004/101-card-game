@@ -1,0 +1,37 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:AvaloniaUI.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="100" d:DesignHeight="150"
+             x:Class="AvaloniaUI.Views.CardView"
+             x:DataType="vm:CardViewModel">
+  
+  <!-- Цей UserControl автоматично отримає свій DataContext (CardViewModel)
+       від ItemsControl або ContentControl, який його використовує. -->
+  
+  <Button Command="{Binding PlayCardCommand}"
+          Padding="5" Margin="5"
+          Width="100" Height="150"
+          Background="White"
+          BorderBrush="Black" BorderThickness="2"
+          CornerRadius="10"
+          IsEnabled="{Binding IsPlayable}">
+    
+    <TextBlock Text="{Binding DisplayText}"
+               Foreground="{Binding SuitColor}"
+               FontSize="24"
+               FontWeight="Bold"
+               TextAlignment="Center"
+               TextWrapping="Wrap"/>
+
+    <!-- Стиль для підсвічування легальних ходів -->
+    <Button.Styles>
+      <Style Selector="Button[IsEnabled=true]">
+        <Setter Property="BorderBrush" Value="LimeGreen"/>
+        <Setter Property="BorderThickness" Value="4"/>
+      </Style>
+    </Button.Styles>
+    
+  </Button>
+</UserControl>

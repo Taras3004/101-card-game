@@ -1,12 +1,102 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:AvaloniaUI.ViewModels"
+        xmlns:views="using:AvaloniaUI.Views"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:views="clr-namespace:AvaloniaUI.Views"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="800"
         x:Class="AvaloniaUI.Views.MainWindow"
+        x:DataType="vm:GameViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="AvaloniaUI">
-        <views:MainView />
+        Title="101 Card Game">
+
+  <!-- Встановлюємо DataContext (мозок) для цього вікна -->
+  <Window.DataContext>
+    <vm:GameViewModel/>
+  </Window.DataContext>
+
+  <!-- Avalonia має знати, що коли вона бачить CardViewModel, 
+       вона повинна використовувати CardView для його малювання -->
+  <Window.DataTemplates>
+    <DataTemplate DataType="vm:CardViewModel">
+      <views:CardView/>
+    </DataTemplate>
+  </Window.DataTemplates>
+
+  <!-- Головний контейнер гри -->
+  <Grid Background="#35654d"> <!-- Колір столу, як у казино -->
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/> <!-- Рахунок -->
+      <RowDefinition Height="*"/>   <!-- Рука Бота -->
+      <RowDefinition Height="Auto"/> <!-- Стіл (Колода, Скид) -->
+      <RowDefinition Height="*"/>   <!-- Рука Гравця -->
+      <RowDefinition Height="Auto"/> <!-- Панель повідомлень/дій -->
+    </Grid.RowDefinitions>
+
+    <!-- 1. Рахунок (Верх) -->
+    <Border Grid.Row="0" Background="#222" Padding="10">
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+        <TextBlock Text="YOUR SCORE:" Foreground="White" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding PlayerScore}" Foreground="LimeGreen" FontWeight="Bold" FontSize="20" VerticalAlignment="Center"/>
+        <TextBlock Text="BOT SCORE:" Foreground="White" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding BotScore}" Foreground="OrangeRed" FontWeight="Bold" FontSize="20" VerticalAlignment="Center"/>
+      </StackPanel>
+    </Border>
+
+    <!-- 2. Рука Бота (Просто лічильник) -->
+    <TextBlock Grid.Row="1"
+               Text="{Binding BotCardCount, StringFormat='Bot has {0} cards'}"
+               Foreground="White" FontSize="18"
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    
+    <!-- 3. Стіл (Центр) -->
+    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20" Margin="20">
+      <!-- Колода -->
+      <Button Content="DRAW DECK" Command="{Binding OnDrawCard}"
+              Width="100" Height="150" Background="DarkBlue"
+              BorderBrush="White" BorderThickness="2" CornerRadius="10"
+              Foreground="White" FontWeight="Bold"
+              IsEnabled="{Binding IsPlayerTurn}"/>
+      
+      <!-- Скид (показує TopCard) -->
+      <ContentControl Content="{Binding TopCard}"/>
+    </StackPanel>
+
+    <!-- 4. Рука Гравця -->
+    <ScrollViewer Grid.Row="3" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+      <ItemsControl ItemsSource="{Binding PlayerHand}">
+        <ItemsControl.ItemsPanel>
+          <ItemsPanelTemplate>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+          </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+      </ItemsControl>
+    </ScrollViewer>
+    
+    <!-- 5. Панель повідомлень (Низ) -->
+    <Border Grid.Row="4" Background="#222" Padding="10" MinHeight="80">
+      <TextBlock Text="{Binding GameMessage}"
+                 Foreground="White" FontSize="18"
+                 TextWrapping="Wrap" TextAlignment="Center"
+                 HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Border>
+
+    <!-- 6. (ПОВЕРХ ВСЬОГО) Вікно вибору масті -->
+    <Border Grid.Row="0" Grid.RowSpan="5"
+            Background="#80000000"
+            IsVisible="{Binding IsSuitPickerVisible}">
+      <Border Background="LightGray" CornerRadius="10"
+              HorizontalAlignment="Center" VerticalAlignment="Center"
+              Padding="30" BorderBrush="Black" BorderThickness="2">
+        <StackPanel Spacing="10">
+          <TextBlock Text="Choose a Suit!" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <Button Content="♥ Heart" Command="{Binding OnChooseSuit}" CommandParameter="Heart" Background="Red" Foreground="White" FontWeight="Bold"/>
+          <Button Content="♦ Diamond" Command="{Binding OnChooseSuit}" CommandParameter="Diamond" Background="Red" Foreground="White" FontWeight="Bold"/>
+          <Button Content="♣ Club" Command="{Binding OnChooseSuit}" CommandParameter="Club" Background="Black" Foreground="White" FontWeight="Bold"/>
+          <Button Content="♠ Spade" Command="{Binding OnChooseSuit}" CommandParameter="Spade" Background="Black" Foreground="White" FontWeight="Bold"/>
+        </StackPanel>
+      </Border>
+    </Border>
+
+  </Grid>
 </Window>
