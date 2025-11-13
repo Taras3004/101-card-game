@@ -2,19 +2,11 @@
 
 namespace CoreGame
 {
-    public class GameContext
+    public class GameContext(List<Card> playerHand, Card topCard, Suit? suitOverride, Card? sixToCover)
     {
-        public List<Card> PlayerHand { get; }
-        public Card TopCard { get; }
-        public Suit? CurrentSuitOverride { get; }
-        public Card? ActiveSixToCover { get; }
-
-        public GameContext(List<Card> playerHand, Card topCard, Suit? suitOverride, Card? sixToCover)
-        {
-            PlayerHand = playerHand;
-            TopCard = topCard;
-            CurrentSuitOverride = suitOverride;
-            ActiveSixToCover = sixToCover;
-        }
+        public List<Card> PlayerHand { get; } = playerHand;
+        public Card TopCard { get; } = topCard;
+        public Suit? CurrentSuitOverride { get; } = suitOverride;
+        public Card? ActiveSixToCover { get; } = sixToCover;
     }
 }

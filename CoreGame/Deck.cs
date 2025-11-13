@@ -5,8 +5,8 @@ namespace CoreGame
 {
     public class Deck
     {
-        private List<Card> drawPile;
-        public List<Card> DiscardPile { get; private set; }
+        private List<Card> drawPile = [];
+        public List<Card> DiscardPile { get; private set; } = [];
         public Card TopCard => DiscardPile.LastOrDefault()!;
 
         public Suit? CurrentSuitOverride { get; private set; }
@@ -14,15 +14,24 @@ namespace CoreGame
 
         public Deck()
         {
-            DiscardPile = new List<Card>();
+            Reset();
+        }
+
+        public void Reset()
+        {
+            DiscardPile = [];
             drawPile = CreateDeck();
             Shuffle();
+
+            CurrentSuitOverride = null;
+            ActiveSixToCover = null;
+
             PlaceFirstCard();
         }
 
         private void Shuffle()
         {
-            Random random = new Random();
+            Random random = new();
 
             int n = drawPile.Count;
             while (n > 1)
@@ -61,7 +70,7 @@ namespace CoreGame
 
         private static List<Card> CreateDeck()
         {
-            List<Card> newDeck = new List<Card>();
+            List<Card> newDeck = [];
 
             ICardAbility reverseEffect = new ReverseEffect();
             ICardAbility sevenEffect = new AddCardsEffect(2);
@@ -70,9 +79,9 @@ namespace CoreGame
             ICardAbility changeSuitEffect = new ChangeCurrentSuitEffect();
             ICardAbility aceAbility = new SkipTurnEffect();
 
-            foreach (Suit suit in Enum.GetValues(typeof(Suit)))
+            foreach (Suit suit in Enum.GetValues<Suit>())
             {
-                foreach (Rank rank in Enum.GetValues(typeof(Rank)))
+                foreach (Rank rank in Enum.GetValues<Rank>())
                 {
                     ICardAbility? assignedAbility = null;
 
@@ -127,7 +136,7 @@ namespace CoreGame
 
         public List<Card> Draw(int count)
         {
-            List<Card> drew = new List<Card>();
+            List<Card> drew = [];
 
             for (int i = 0; i < count; i++)
             {

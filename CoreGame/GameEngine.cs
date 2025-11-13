@@ -5,16 +5,17 @@ namespace CoreGame;
 
 public class GameEngine
 {
-    private const int CardsPerPlayer = 4;
+    public event Action<RoundSummary>? OnRoundEnded;
 
-    private readonly List<Player> players;
+    public Dictionary<Player, int> PlayerScores { get; private set; }
     public Player CurrentPlayer { get; private set; }
-    private int currentPlayerIndex;
-
-    private bool isReversed;
     public Deck Deck { get; }
-
     public Player? PlayerToChooseSuit { get; private set; }
+
+    private const int CardsPerPlayer = 4;
+    private readonly List<Player> players;
+    private int currentPlayerIndex;
+    private bool isReversed;
 
     public GameEngine(List<Player> players)
     {
@@ -22,6 +23,11 @@ public class GameEngine
         ArgumentOutOfRangeException.ThrowIfLessThan(players.Count, 2);
 
         this.players = players;
+        PlayerScores = new Dictionary<Player, int>(players.Count);
+        foreach (var p in this.players)
+        {
+            PlayerScores.Add(p, 0);
+        }
 
         CurrentPlayer = players[currentPlayerIndex];
         Deck = new Deck();
@@ -29,13 +35,82 @@ public class GameEngine
 
     public void StartGame()
     {
+        DealCards();
+    }
+
+    public void StartNewRound()
+    {
+        // 1. Сбрасываем всю колоду (включая ActiveSixToCover и SuitOverride)
+        Deck.Reset();
+
+        // 2. Очищаем руки всем игрокам
+        foreach (var player in players)
+        {
+            player.ClearHand();
+        }
+
+        // 3. Сбрасываем состояние движка
+        isReversed = false;
+        PlayerToChooseSuit = null;
+
+        // 4. Устанавливаем, кто ходит первым (например, игрок 0)
+        currentPlayerIndex = 0;
+        CurrentPlayer = players[currentPlayerIndex];
+
+        // 5. Раздаем новые карты
+        DealCards();
+    }
+
+    private void DealCards()
+    {
         foreach (Player player in players)
         {
             var playerHand = Deck.Draw(CardsPerPlayer);
-
             player.CurrentCards.AddRange(playerHand);
         }
     }
+
+    public void EndRound(Player winner)
+    {
+        var losers = players.Where(p => p != winner);
+        var roundScoreChanges = new Dictionary<Player, int>();
+        int loserScoreMultiplier = 1;
+
+        int winnerScoreAdjustment = 0;
+        bool multiplyLoserScore = false;
+
+        if (Deck.TopCard.Rank == Rank.Queen)
+        {
+            multiplyLoserScore = true;
+            switch (Deck.TopCard.Suit)
+            {
+                case Suit.Club: winnerScoreAdjustment = -20; break;
+                case Suit.Spade: winnerScoreAdjustment = -40; break;
+                case Suit.Heart: winnerScoreAdjustment = -60; break;
+                case Suit.Diamond: winnerScoreAdjustment = -80; break;
+            }
+        }
+
+        if (multiplyLoserScore)
+        {
+            loserScoreMultiplier = 2;
+        }
+
+        foreach (var player in losers)
+        {
+            int loserScoreGained = player.CurrentCards.Sum(card => card.GetValue());
+            int finalScore = loserScoreGained * loserScoreMultiplier;
+            PlayerScores[player] += finalScore;
+            roundScoreChanges[player] = finalScore;
+        }
+
+        PlayerScores[winner] += winnerScoreAdjustment;
+        roundScoreChanges[winner] = winnerScoreAdjustment;
+
+        var summary = new RoundSummary(winner, PlayerScores, roundScoreChanges);
+        OnRoundEnded?.Invoke(summary);
+    }
+    
 
     public void PlayTurn(Card playedCard)
     {
@@ -49,6 +124,12 @@ public class GameEngine
         Deck.PlayCard(playedCard);
 
         playedCard.Use(this, CurrentPlayer);
+
+        if (CurrentPlayer.CurrentCards.Count == 0)
+        {
+            EndRound(CurrentPlayer);
+            return;
+        }
 
         PassTurnToTheNextPlayer();
     }
@@ -87,7 +168,9 @@ public class GameEngine
                 var additionalCard = Deck.Draw();
                 CurrentPlayer.CurrentCards.Add(additionalCard);
 
-                var secondTry = CurrentPlayer.MakeMove(context);
+                var newContext = new GameContext(CurrentPlayer.CurrentCards, Deck.TopCard, Deck.CurrentSuitOverride, Deck.ActiveSixToCover);
+
+                var secondTry = CurrentPlayer.MakeMove(newContext);
 
                 if (secondTry != null)
                 {
