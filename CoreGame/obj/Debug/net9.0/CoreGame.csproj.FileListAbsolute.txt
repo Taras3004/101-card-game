@@ -1,12 +1,24 @@
-C:\Users\taras\source\repos\101-card-game\CoreGame\bin\Debug\net9.0\CoreGame.deps.json
-C:\Users\taras\source\repos\101-card-game\CoreGame\bin\Debug\net9.0\CoreGame.dll
-C:\Users\taras\source\repos\101-card-game\CoreGame\bin\Debug\net9.0\CoreGame.pdb
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.AssemblyInfoInputs.cache
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.AssemblyInfo.cs
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.csproj.CoreCompileInputs.cache
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.sourcelink.json
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.dll
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\refint\CoreGame.dll
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.pdb
-C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\ref\CoreGame.dll
+C:/Users/taras/source/repos/101-card-game/CoreGame/bin/Debug/net9.0/CoreGame.deps.json
+C:/Users/taras/source/repos/101-card-game/CoreGame/bin/Debug/net9.0/CoreGame.dll
+C:/Users/taras/source/repos/101-card-game/CoreGame/bin/Debug/net9.0/CoreGame.pdb
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.AssemblyInfoInputs.cache
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.AssemblyInfo.cs
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.csproj.CoreCompileInputs.cache
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.sourcelink.json
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.dll
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/refint/CoreGame.dll
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.pdb
+C:/Users/taras/source/repos/101-card-game/CoreGame/obj/Debug/net9.0/ref/CoreGame.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/bin/Debug/net9.0/CoreGame.deps.json
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/bin/Debug/net9.0/CoreGame.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/bin/Debug/net9.0/CoreGame.pdb
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.AssemblyInfoInputs.cache
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.AssemblyInfo.cs
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.csproj.CoreCompileInputs.cache
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.sourcelink.json
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/refint/CoreGame.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/CoreGame.pdb
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/Debug/net9.0/ref/CoreGame.dll

@@ -40,24 +40,19 @@ public class GameEngine
 
     public void StartNewRound()
     {
-        // 1. Сбрасываем всю колоду (включая ActiveSixToCover и SuitOverride)
         Deck.Reset();
 
-        // 2. Очищаем руки всем игрокам
         foreach (var player in players)
         {
             player.ClearHand();
         }
 
-        // 3. Сбрасываем состояние движка
         isReversed = false;
         PlayerToChooseSuit = null;
 
-        // 4. Устанавливаем, кто ходит первым (например, игрок 0)
         currentPlayerIndex = 0;
         CurrentPlayer = players[currentPlayerIndex];
 
-        // 5. Раздаем новые карты
         DealCards();
     }
 
@@ -82,13 +77,7 @@ public class GameEngine
         if (Deck.TopCard.Rank == Rank.Queen)
         {
             multiplyLoserScore = true;
-            switch (Deck.TopCard.Suit)
-            {
-                case Suit.Club: winnerScoreAdjustment = -20; break;
-                case Suit.Spade: winnerScoreAdjustment = -40; break;
-                case Suit.Heart: winnerScoreAdjustment = -60; break;
-                case Suit.Diamond: winnerScoreAdjustment = -80; break;
-            }
+            winnerScoreAdjustment = -GetQueenEndGameValue(Deck.TopCard);
         }
 
         if (multiplyLoserScore)
@@ -98,19 +87,64 @@ public class GameEngine
 
         foreach (var player in losers)
         {
-            int loserScoreGained = player.CurrentCards.Sum(card => card.GetValue());
+            int loserScoreGained;
+            if (IsPlayerFinishedOnlyWithQueens(player))
+            {
+                loserScoreGained = player.CurrentCards.Sum(GetQueenEndGameValue);
+            }
+            else
+            {
+                loserScoreGained = player.CurrentCards.Sum(card => card.GetValue());
+            }
             int finalScore = loserScoreGained * loserScoreMultiplier;
             PlayerScores[player] += finalScore;
             roundScoreChanges[player] = finalScore;
         }
 
         PlayerScores[winner] += winnerScoreAdjustment;
+        if (PlayerScores[winner] < 0)
+        {
+            PlayerScores[winner] = 0;
+        }
+
         roundScoreChanges[winner] = winnerScoreAdjustment;
 
         var summary = new RoundSummary(winner, PlayerScores, roundScoreChanges);
         OnRoundEnded?.Invoke(summary);
     }
-    
+
+    private bool IsPlayerFinishedOnlyWithQueens(Player player)
+    {
+        bool onlyQueens = true;
+
+        foreach (var card in player.CurrentCards)
+        {
+            if (card.Rank != Rank.Queen)
+            {
+                onlyQueens = false;
+            }
+        }
+
+        return onlyQueens;
+    }
+
+    private int GetQueenEndGameValue(Card card)
+    {
+        if (card.Rank != Rank.Queen)
+        {
+            return 0;
+        }
+
+        return card.Suit switch
+        {
+            Suit.Club => 20,
+            Suit.Spade => 40,
+            Suit.Heart => 20,
+            Suit.Diamond => 20,
+            _ => 0,
+        };
+    }
+
 
     public void PlayTurn(Card playedCard)
     {

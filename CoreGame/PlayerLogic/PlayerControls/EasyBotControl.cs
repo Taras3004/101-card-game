@@ -4,10 +4,8 @@ namespace CoreGame.PlayerLogic.PlayerControls;
 
 public class EasyBotControl : IControl
 {
-    // Логика "Легкого" бота
     public Card? MakeMove(GameContext context)
     {
-        // Бот просто ищет первую карту, которая легальна
         foreach (var card in context.PlayerHand)
         {
             if (IsMoveLegal(card, context))
@@ -15,14 +13,13 @@ public class EasyBotControl : IControl
                 return card;
             }
         }
-        return null; // Нет легального хода
+        return null;
     }
 
-    // Бот выбирает масть, которой у него больше всего
     public Suit ChooseSuit(GameContext context)
     {
         if (!context.PlayerHand.Any())
-            return (Suit)new Random().Next(0, 4); // Случайная, если нет карт
+            return (Suit)new Random().Next(0, 4);
 
         return context.PlayerHand
             .GroupBy(card => card.Suit)
@@ -30,8 +27,6 @@ public class EasyBotControl : IControl
             .First().Key;
     }
 
-    // У "Легкого" бота есть своя копия логики IsMoveLegal
-    // (Это нормально, т.к. "стратегия" должна быть независимой)
     private bool IsMoveLegal(Card card, GameContext context)
     {
         if (context.CurrentSuitOverride != null)

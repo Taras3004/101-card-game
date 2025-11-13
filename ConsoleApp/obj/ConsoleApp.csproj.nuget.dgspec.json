@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\ConsoleApp.csproj": {}
+    "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\ConsoleApp.csproj": {
+    "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\taras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\obj\\",
+        "projectPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/home/taras_3004/.nuget/packages/",
+        "outputPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taras\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/taras_3004/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CoreGame.csproj": {
-                "projectPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CoreGame.csproj"
+              "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/CoreGame.csproj": {
+                "projectPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/CoreGame.csproj"
               }
             }
           }
@@ -48,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -69,32 +63,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CoreGame.csproj": {
+    "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/CoreGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CoreGame.csproj",
+        "projectUniqueName": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/CoreGame.csproj",
         "projectName": "CoreGame",
-        "projectPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CoreGame.csproj",
-        "packagesPath": "C:\\Users\\taras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\obj\\",
+        "projectPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/CoreGame.csproj",
+        "packagesPath": "/home/taras_3004/.nuget/packages/",
+        "outputPath": "/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/CoreGame/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taras\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/taras_3004/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -113,7 +101,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -134,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

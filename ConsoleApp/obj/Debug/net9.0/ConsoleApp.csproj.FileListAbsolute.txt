@@ -1,19 +1,38 @@
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\CoreGame.dll
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\bin\Debug\net9.0\CoreGame.pdb
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.AssemblyReference.cache
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.Up2Date
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
-C:\Users\taras\source\repos\101-card-game\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.exe
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.deps.json
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.runtimeconfig.json
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.dll
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.pdb
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/CoreGame.dll
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/bin/Debug/net9.0/CoreGame.pdb
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.AssemblyReference.cache
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.AssemblyInfoInputs.cache
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.AssemblyInfo.cs
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.CoreCompileInputs.cache
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.sourcelink.json
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.Up2Date
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.dll
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/refint/ConsoleApp.dll
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.pdb
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.genruntimeconfig.cache
+C:/Users/taras/source/repos/101-card-game/ConsoleApp/obj/Debug/net9.0/ref/ConsoleApp.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.deps.json
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.runtimeconfig.json
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/ConsoleApp.pdb
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/CoreGame.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/bin/Debug/net9.0/CoreGame.pdb
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.AssemblyReference.cache
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.AssemblyInfoInputs.cache
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.AssemblyInfo.cs
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.sourcelink.json
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.Up2Date
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/refint/ConsoleApp.dll
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.pdb
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ConsoleApp.genruntimeconfig.cache
+/home/taras_3004/Documents/vsc projects/c# projects/101-card-game/ConsoleApp/obj/Debug/net9.0/ref/ConsoleApp.dll
