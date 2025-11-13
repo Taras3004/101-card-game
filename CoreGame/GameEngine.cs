@@ -12,7 +12,7 @@ public class GameEngine
     private int currentPlayerIndex;
 
     private bool isReversed;
-    private readonly Deck deck;
+    public Deck Deck { get; }
 
     public Player? PlayerToChooseSuit { get; private set; }
 
@@ -24,14 +24,14 @@ public class GameEngine
         this.players = players;
 
         CurrentPlayer = players[currentPlayerIndex];
-        deck = new Deck();
+        Deck = new Deck();
     }
 
     public void StartGame()
     {
         foreach (Player player in players)
         {
-            var playerHand = deck.Draw(CardsPerPlayer);
+            var playerHand = Deck.Draw(CardsPerPlayer);
 
             player.CurrentCards.AddRange(playerHand);
         }
@@ -39,14 +39,14 @@ public class GameEngine
 
     public void PlayTurn(Card playedCard)
     {
-        if (!deck.IsMoveLegal(playedCard))
+        if (!Deck.IsMoveLegal(playedCard))
         {
             throw new Exception("Nope");
         }
 
         CurrentPlayer.CurrentCards.Remove(playedCard);
 
-        deck.PlayCard(playedCard);
+        Deck.PlayCard(playedCard);
 
         playedCard.Use(this, CurrentPlayer);
 
@@ -60,7 +60,7 @@ public class GameEngine
             return;
         }
 
-        var context = new GameContext(CurrentPlayer.CurrentCards, deck.TopCard);
+        var context = new GameContext(CurrentPlayer.CurrentCards, Deck.TopCard, Deck.CurrentSuitOverride, Deck.ActiveSixToCover);
 
         var botMove = CurrentPlayer.MakeMove(context);
 
@@ -70,21 +70,21 @@ public class GameEngine
         }
         else
         {
-            if (deck.ActiveSixToCover != null)
+            if (Deck.ActiveSixToCover != null)
             {
                 Card? cardToPlay;
 
                 do
                 {
-                    cardToPlay = deck.Draw();
+                    cardToPlay = Deck.Draw();
                     CurrentPlayer.CurrentCards.Add(cardToPlay);
-                } while (!deck.IsMoveLegal(cardToPlay));
+                } while (!Deck.IsMoveLegal(cardToPlay));
 
                 PlayTurn(cardToPlay);
             }
             else
             {
-                var additionalCard = deck.Draw();
+                var additionalCard = Deck.Draw();
                 CurrentPlayer.CurrentCards.Add(additionalCard);
 
                 var secondTry = CurrentPlayer.MakeMove(context);
@@ -103,7 +103,7 @@ public class GameEngine
 
     public void SetCurrentSuitOverride(Suit suit)
     {
-        deck.SetSuitOverride(suit);
+        Deck.SetSuitOverride(suit);
         PlayerToChooseSuit = null;
     }
 
@@ -141,7 +141,7 @@ public class GameEngine
 
     public void AddCardsToPlayer(Player player, int countOfCards)
     {
-        var cards = deck.Draw(countOfCards);
+        var cards = Deck.Draw(countOfCards);
         player.CurrentCards.AddRange(cards);
     }
 

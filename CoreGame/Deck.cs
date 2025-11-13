@@ -3,7 +3,7 @@ using CoreGame.CardsLogic.CardAbilities;
 
 namespace CoreGame
 {
-    internal class Deck
+    public class Deck
     {
         private List<Card> drawPile;
         public List<Card> DiscardPile { get; private set; }

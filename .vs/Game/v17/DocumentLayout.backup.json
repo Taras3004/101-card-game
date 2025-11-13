@@ -3,60 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\taras\\source\\repos\\101-card-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55CA95E8-2C5B-4299-A334-73284B6164F1}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CA95E8-2C5B-4299-A334-73284B6164F1}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\sixeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\sixeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\changecurrentsuiteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\changecurrentsuiteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\addcardseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\addcardseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\skipturneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\skipturneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\reverseeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\reverseeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\icardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\icardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\playercontrols\\humancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\playercontrols\\humancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\playercontrols\\mediumbotcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,12 +19,60 @@
       "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\playercontrols\\hardbotcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\playercontrols\\humancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\playercontrols\\humancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\playercontrols\\easybotcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\playercontrols\\easybotcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\playerlogic\\playercontrols\\icontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\playerlogic\\playercontrols\\icontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\addcardseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\addcardseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\changecurrentsuiteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\changecurrentsuiteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\icardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\icardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\reverseeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\reverseeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\cardabilities\\skipturneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\cardabilities\\skipturneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\coregame\\cardslogic\\suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28F7B14-4D23-4712-83F5-66968AAD7182}|CoreGame\\CoreGame.csproj|solutionrelative:coregame\\cardslogic\\suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95F26AE2-D3EF-45DD-8B4A-234F2177DBA8}|Game\\Game.csproj|c:\\users\\taras\\source\\repos\\101-card-game\\game\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 422,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,137 +106,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameEngine.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\GameEngine.cs",
-              "RelativeDocumentMoniker": "CoreGame\\GameEngine.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\GameEngine.cs",
-              "RelativeToolTip": "CoreGame\\GameEngine.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwEgAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "ConsoleApp\\Program.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAmwOwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:32.545Z",
+              "WhenOpened": "2025-11-13T12:40:12.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
+              "Title": "ChangeCurrentSuitEffect.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
+              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
+              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:36:22.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCardsEffect.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
+              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
+              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:35:28.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IControl.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
+              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
+              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:13:22.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\Player.cs",
+              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\Player.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\Player.cs",
+              "RelativeToolTip": "CoreGame\\PlayerLogic\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:12:24.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Deck.cs",
               "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\Deck.cs",
               "RelativeDocumentMoniker": "CoreGame\\Deck.cs",
               "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\Deck.cs",
               "RelativeToolTip": "CoreGame\\Deck.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwJ8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T09:04:15.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GameContext.cs",
               "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\GameContext.cs",
               "RelativeDocumentMoniker": "CoreGame\\GameContext.cs",
               "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\GameContext.cs",
               "RelativeToolTip": "CoreGame\\GameContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T09:16:44.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T09:16:44.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReverseEffect.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\GameEngine.cs",
+              "RelativeDocumentMoniker": "CoreGame\\GameEngine.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\GameEngine.cs",
+              "RelativeToolTip": "CoreGame\\GameEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:35:52.423Z",
+              "WhenOpened": "2025-11-12T17:17:32.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SixEffect.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\SixEffect.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\SixEffect.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\SixEffect.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\SixEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "HardBotControl.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
+              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
+              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:35:41.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SkipTurnEffect.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:51:18.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Card.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\Card.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Card.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:32.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddCardsEffect.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\AddCardsEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:35:28.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChangeCurrentSuitEffect.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\ChangeCurrentSuitEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:36:22.817Z",
+              "WhenOpened": "2025-11-12T17:17:20.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\Player.cs",
-              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\Player.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\Player.cs",
-              "RelativeToolTip": "CoreGame\\PlayerLogic\\Player.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAawBkAAABBAAAAAAAAAA==",
+              "Title": "MediumBotControl.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
+              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
+              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:12:24.517Z",
+              "WhenOpened": "2025-11-12T17:17:20.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ICardAbility.cs",
               "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ICardAbility.cs",
               "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\ICardAbility.cs",
@@ -244,38 +239,71 @@
               "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\ICardAbility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:32.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:17:32.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
+              "Title": "ReverseEffect.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
+              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
+              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\ReverseEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:35:52.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EasyBotControl.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
+              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
+              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:17:20.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HumanControl.cs",
               "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\HumanControl.cs",
               "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\HumanControl.cs",
               "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\HumanControl.cs",
               "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\HumanControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:20.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:17:20.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Suit.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Suit.cs",
-              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\Suit.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Suit.cs",
-              "RelativeToolTip": "CoreGame\\CardsLogic\\Suit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "SkipTurnEffect.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
+              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
+              "RelativeToolTip": "CoreGame\\CardsLogic\\CardAbilities\\SkipTurnEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:26.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T08:51:18.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Card.cs",
+              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\Card.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Card.cs",
+              "RelativeToolTip": "CoreGame\\CardsLogic\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:17:32.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Rank.cs",
               "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Rank.cs",
               "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\Rank.cs",
@@ -283,60 +311,19 @@
               "RelativeToolTip": "CoreGame\\CardsLogic\\Rank.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:32.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MediumBotControl.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
-              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
-              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\MediumBotControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:20.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HardBotControl.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
-              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
-              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\HardBotControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:20.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EasyBotControl.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
-              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
-              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\EasyBotControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:17:20.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:17:32.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "IControl.cs",
-              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
-              "RelativeDocumentMoniker": "CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
-              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
-              "RelativeToolTip": "CoreGame\\PlayerLogic\\PlayerControls\\IControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "Suit.cs",
+              "DocumentMoniker": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Suit.cs",
+              "RelativeDocumentMoniker": "CoreGame\\CardsLogic\\Suit.cs",
+              "ToolTip": "C:\\Users\\taras\\source\\repos\\101-card-game\\CoreGame\\CardsLogic\\Suit.cs",
+              "RelativeToolTip": "CoreGame\\CardsLogic\\Suit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:13:22.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:17:26.577Z"
             },
             {
               "$type": "Document",

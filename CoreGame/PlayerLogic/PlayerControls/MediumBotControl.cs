@@ -8,4 +8,9 @@ public class MediumBotControl : IControl
     {
         throw new NotImplementedException();
     }
+
+    public Suit ChooseSuit(GameContext context)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -6,15 +6,15 @@ namespace CoreGame
     {
         public List<Card> PlayerHand { get; }
         public Card TopCard { get; }
-        
-        //... some info for bot
+        public Suit? CurrentSuitOverride { get; }
+        public Card? ActiveSixToCover { get; }
 
-        private GameContext() { }
-
-        public GameContext(List<Card> playerHand, Card topCard)
+        public GameContext(List<Card> playerHand, Card topCard, Suit? suitOverride, Card? sixToCover)
         {
             PlayerHand = playerHand;
             TopCard = topCard;
+            CurrentSuitOverride = suitOverride;
+            ActiveSixToCover = sixToCover;
         }
     }
 }

@@ -8,4 +8,9 @@ public class HardBotControl : IControl
     {
         throw new NotImplementedException();
     }
+
+    public Suit ChooseSuit(GameContext context)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -1,0 +1,12 @@
+C:\Users\taras\source\repos\101-card-game\CoreGame\bin\Debug\net9.0\CoreGame.deps.json
+C:\Users\taras\source\repos\101-card-game\CoreGame\bin\Debug\net9.0\CoreGame.dll
+C:\Users\taras\source\repos\101-card-game\CoreGame\bin\Debug\net9.0\CoreGame.pdb
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.AssemblyInfoInputs.cache
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.AssemblyInfo.cs
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.csproj.CoreCompileInputs.cache
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.sourcelink.json
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.dll
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\refint\CoreGame.dll
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\CoreGame.pdb
+C:\Users\taras\source\repos\101-card-game\CoreGame\obj\Debug\net9.0\ref\CoreGame.dll
